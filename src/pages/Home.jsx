@@ -1,9 +1,11 @@
 import React from "react";
+import Footer from "../layouts/Footer";
+import Slider from "../layouts/Slider";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <Slider></Slider>
     </div>
   );
 };
